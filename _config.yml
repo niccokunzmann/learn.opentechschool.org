@@ -8,6 +8,14 @@ exclude: ['bower_components', 'sass', 'config.rb', 'gumby.json',
           'Gemfile', 'Gemfile.lock', 'README.md', 'CNAME']
 
 sections:
+  - name: Hour of Code
+    workshops:
+      - title: Blockly Games
+        folder: /tutorials/blockly-games/
+        url: https://blockly-games.appspot.com/
+        source: https://github.com/google/blockly-games
+        code: false
+        desc: "Blockly Games is a series of educational games that teach programming. It is designed for children who have not had prior experience with computer programming."
   - name: Python
     workshops:
       - title: Python for Beginners
@@ -49,6 +57,13 @@ sections:
         source: https://github.com/OpenTechSchool/js-beginners-day2/
         code: false
         desc: "Continuing on your path to becoming a javascript ninja."
+  - name: Hardware
+    workshops:
+      - title: StartHardware.org
+        folder: /tutorials/starthardware.org/
+        url: http://starthardware.org
+        code: false
+        desc: "Here you learn, how you can program Arduinos yourself. From blinking LEDs to your own digital pet you can explore the exciting world of programmable hardware."
 #  - name: Web Development
 #    workshops:
 #      - title: Starting HTML & CSS
