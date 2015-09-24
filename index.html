@@ -27,20 +27,33 @@ title: "Learning Materials"
       <li>
         <div class="grid-box">
           <div class="description">
-            <h4><a href="{{tut.url}}">{{tut.title}}</a></h4>
+            <h4><a href="{{tut.folder}}">{{tut.title}}</a></h4>
             <p>{{tut.desc}}</p>
           </div>
+
+          {% if tut.url %}
+          <div class="code-link icon-left entypo icon-link">
+            <a href="{{tut.url}}">Online</a>
+          </div>
+          {% endif %}
+
           {% if tut.source %}
           <div class="source-link icon-left entypo icon-github">
             <a href="{{tut.source}}">Source</a>
           </div>
           {% endif %}
+
           {% if tut.code %}
           <div class="code-link icon-left entypo icon-code">
             <a href="{{tut.code}}">Code</a>
           </div>
           {% endif %}
-          <a href="{{tut.url}}"><span class="div-link"></span></a>
+
+          <!--<div class="code-link icon-left entypo icon-download">
+            <a href="/as_zip/{{tut.folder}}">Download</a>
+          </div> -->
+
+          <a href="{{tut.folder}}"><span class="div-link"></span></a>
         </div>
       </li>
     {% endfor %}
