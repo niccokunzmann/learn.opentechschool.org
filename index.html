@@ -1,6 +1,6 @@
 ---
 layout: ots
-title: "Learning Materials"
+title: "Offline Learning Materials"
 ---
 <header>
   <h1><a href="http://www.opentechschool.org">{{site.name}}’s</a></h1>
@@ -27,13 +27,25 @@ title: "Learning Materials"
       <li>
         <div class="grid-box">
           <div class="description">
-            <h4><a href="{{tut.folder}}">{{tut.title}}</a></h4>
+            <h4><a href="{{tut.offline}}">{{tut.title}}</a></h4>
             <p>{{tut.desc}}</p>
           </div>
 
           {% if tut.url %}
-          <div class="code-link icon-left entypo icon-link">
+          <div class="code-link icon-left entypo icon-globe">
             <a href="{{tut.url}}">Online</a>
+          </div>
+          {% endif %}
+
+          {% if tut.apk %}
+          <div class="code-link icon-left entypo icon-play">
+            <a href="{{tut.apk}}">Android</a>
+          </div>
+          {% endif %}
+
+          {% if tut.downloads %}
+          <div class="code-link icon-left entypo icon-download">
+            <a href="{{tut.downloads}}">Downloads</a>
           </div>
           {% endif %}
 
@@ -50,10 +62,10 @@ title: "Learning Materials"
           {% endif %}
 
           <!--<div class="code-link icon-left entypo icon-download">
-            <a href="/as_zip/{{tut.folder}}">Download</a>
+            <a href="/as_zip/{{tut.offline}}">Download</a>
           </div> -->
 
-          <a href="{{tut.folder}}"><span class="div-link"></span></a>
+          <a href="{{tut.offline}}"><span class="div-link"></span></a>
         </div>
       </li>
     {% endfor %}

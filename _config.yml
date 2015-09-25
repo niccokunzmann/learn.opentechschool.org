@@ -11,17 +11,34 @@ sections:
   - name: Hour of Code
     workshops:
       - title: Blockly Games
-        folder: /tutorials/blockly-games/
+        offline: /tutorials/blockly-games/
         url: https://blockly-games.appspot.com/
         source: https://github.com/google/blockly-games
+        downloads: /tutorials/blockly-games-repo/generated/
         code: false
-        desc: "Blockly Games is a series of educational games that teach programming. It is designed for children who have not had prior experience with computer programming."
+        desc: "Blockly Games is a series of educational games that teach 
+              programming. It is designed for children who have not had 
+              prior experience with computer programming."
+      - title: Lightbot
+        offline: /downloads/lightbot.com.zip
+        url: http://lightbot.com/hocflash.html
+        apk: /downloads/apps/Lightbot.apk
+        code: false
+        desc: "Program Lightbot to light up all of the blue squares!"
+      - title: Run Marco!
+        offline: http://marco.allcancode.com/
+        url: http://allcancode.com/
+        apk: "/downloads/apps/Run Marco!.apk"
+        code: false
+        desc: "In this unforgettable journey, Marco meets with friends, 
+               discovers the world and finds out about his famous ancestor."
   - name: Python
     workshops:
       - title: Python for Beginners
-        folder: /tutorials/OpenTechSchool/python-beginners/
+        offline: /tutorials/OpenTechSchool/python-beginners/
         url: http://opentechschool.github.io/python-beginners/
         source: https://github.com/OpenTechSchool/python-beginners/
+        downloads: /downloads/Python
         code: false
         desc: "A tutorial for complete newbies, to help them get their feet 
               wet in programming."
@@ -46,24 +63,29 @@ sections:
   - name: Javascript
     workshops:
       - title: Javascript, Day 1
-        folder: /tutorials/OpenTechSchool/js-beginners-4h-workshop-1/
+        offline: /tutorials/OpenTechSchool/js-beginners-4h-workshop-1/
         url: http://opentechschool.github.io/js-beginners-4h-workshop-1/
         source: https://github.com/OpenTechSchool/js-beginners-4h-workshop-1/
+        downloads: /downloads/Javascript
         code: false
-        desc: "Beginning your path to becoming a javascript ninja."
+        desc: "Beginning your path to becoming a Javascript ninja."
       - title: Javascript, Day 2
-        folder: /tutorials/OpenTechSchool/js-beginners-day2/
+        offline: /tutorials/OpenTechSchool/js-beginners-day2/
         url: http://opentechschool.github.io/js-beginners-day2/
         source: https://github.com/OpenTechSchool/js-beginners-day2/
+        downloads: /downloads/Javascript
         code: false
-        desc: "Continuing on your path to becoming a javascript ninja."
+        desc: "Continuing on your path to becoming a Javascript ninja."
   - name: Hardware
     workshops:
       - title: StartHardware.org
-        folder: /tutorials/starthardware.org/
+        offline: /tutorials/starthardware.org/
         url: http://starthardware.org
+        downloads: /downloads/Arduino
         code: false
-        desc: "Here you learn, how you can program Arduinos yourself. From blinking LEDs to your own digital pet you can explore the exciting world of programmable hardware."
+        desc: "Here you learn, how you can program Arduinos yourself. 
+              From blinking LEDs to your own digital pet you can explore 
+              the exciting world of programmable hardware."
 #  - name: Web Development
 #    workshops:
 #      - title: Starting HTML & CSS
