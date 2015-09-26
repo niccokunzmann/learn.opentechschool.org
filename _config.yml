@@ -20,15 +20,17 @@ sections:
               programming. It is designed for children who have not had 
               prior experience with computer programming."
       - title: Lightbot
-        offline: /downloads/lightbot.com.zip
+        offline: /downloads/HourOfCode/lightbot.com.zip
         url: http://lightbot.com/hocflash.html
-        apk: /downloads/apps/Lightbot.apk
+        downloads: /downloads/HourOfCode
+        apk: /downloads/HourOfCode/Lightbot.apk
         code: false
         desc: "Program Lightbot to light up all of the blue squares!"
       - title: Run Marco!
         offline: http://marco.allcancode.com/
         url: http://allcancode.com/
-        apk: "/downloads/apps/Run Marco!.apk"
+        apk: "/downloads/HourOfCode/Run Marco!.apk"
+        downloads: /downloads/HourOfCode
         code: false
         desc: "In this unforgettable journey, Marco meets with friends, 
                discovers the world and finds out about his famous ancestor."
